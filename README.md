@@ -7,5 +7,5 @@ React-based Kanban board showcasing 2025 UI/UX trends:
 - Contextual deadline badges: blue (far), amber (<48h), rose (overdue)
 - Accessible focus management, keyboard shortcuts, and motion-safe animations
 
-The component source lives in `src/KanbanBoard.jsx` and persists data to LocalStorage.
+Component source is split into modular files under `src/components` with shared helpers in `src/utils/kanban.js`. State persists to LocalStorage.
 
